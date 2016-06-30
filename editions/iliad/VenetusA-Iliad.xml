@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei-scholia.css"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
@@ -11,8 +11,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <title>Iliad</title>
-        <editor>YOUR NAME HERE</editor>
-
+        <editor>Zachary David Sowerby</editor>
+        <editor>Bart Bijvoets</editor>
+        <editor>Eric Dugdale</editor>
       </titleStmt>
       <publicationStmt>
         <p>Unpublished edition of the Venetus A manuscript for the Homer Multitext project</p>
@@ -25,7 +26,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <text>
     <body>
       <div n="24">
-        <l n="1">λῦτο δ᾽ ἀγών, λαοὶ δὲ θοὰς ἐπὶ νῆας ἕκαστοι</l>
+        <l n="30">τὴν δ' ῄνησ'. ἥ, οἱ, πόρε μαχλοσύνην ἀλεγεινήν·</l>
+        <l n="31">ἂλλ' ὅτε δή ῥ' ἐκ τοῖο δυωδεκάτη γένετ' ἠώς.</l>
+        <l n="32">καὶ τότ' άρ' ἀθανάτοισι μετήυδα <persName n="urn:cite:hmt:pers.pers40">Φοῖβος Ἀπόλλων</persName>·</l>
+        <l n="33">σχέτλιοί ἐστε θεοὶ δηλήμονες: οὐδέποθ' ὗμιν</l>
+        <l n="34"><persName n="urn:cite:hmt:pers.pers172">Ἕκτωρ</persName> μηρί' ἔκηε βοῶν αἰγῶν τε τελείων.</l>
+        <l n="35">τὸν νῦν οὐκ ἔτλητε νέκυν περ εόντα σαῶσαι.</l>
+        <l n="36">ᾗ τ' ἀλόχῳ ΐδέειν, καὶ μητέρι. καὶ τέκεϊ ᾧ.</l>
+        <l n="37">καὶ πατέρι <persName n="urn:cite:hmt:pers.pers145">Πριάμῳ</persName>. λαοῖσί τε, <w><add place="supralinear">τ</add>οι</w> κέ μιν ῶκα</l>
+        <l n="38">ἐν πυρὶ κήαι<del></del>εν. καὶ ἐπι κτέρεα κτερίσαιεν.</l>
+        <l n="39">ἂλλ' ὀλοῷ <persName n="urn:cite:hmt:pers.pers1">Ἀχιλῆϊ</persName> θεοὶ βούλεσθ' ἐπαρήγειν.</l>
+        <l n="40">ᾧ οὔτ' ἂρ φρένες εἰσὶν ἐναίσιμοι. οὔτε νόημα</l>
+        <l n="41">γαμπτὸν ἐνι στήθεσσι. λέων δ' ὡς ἄγρια οἶδεν·</l>
+        <l n="42">ὅς τ' ἐπεὶ ὰρ μεγάλῃ τε βίῃ καὶ ἀγήνορι θυμῷ</l>
+        <l n="43">εἴξας. εῖσ' ἐπὶ μῆλα. βροτῶν, ἵνα δαῖτα λάβῃσιν.</l>
+        <l n="44">ὡς <persName n="urn:cite:hmt:pers.pers1">Ἀχιλεὺς</persName>, ἔλεον μὲν ἀπώλεσεν. οὐδέ οἱ αἰδὼς</l>
+        <l n="45">γίνεται. ἥ τ' ἄνδρας μέγα σίνεται. ἠδ' ὀνίνησι·</l>
+        <l n="46">μέλλει μέν που τις καὶ φίλτερον ἄλλον ὀλέσσαι·</l>
+        <l n="47">ἢε κασίγνητον ὁμογάστριον. ἢε καὶ υἱὸν·</l>
+        <l n="48">ἂλλ' ἤτοι κλαύσας καὶ ὀδυράμενος μεθέηκε·</l>
+        <l n="49">τλητὸν γὰρ Μοῖραι θυμὸν θέσαν ἀνθρώποισιν·</l>
+        <l n="50">αὐτὰρ ὅ γ' Ἕκτορα δῖον. ἐπεὶ φίλον ῆτορ ἀπηύρα.</l>
+        <l n="51">ἵππων ἐξάπτων, περὶ σῆμ' ἑτάροιο φίλοιο</l>
+        <l n="52">ἕλκει· οὐ μήν οἱ, τό γε κάλλιον, οὐδέ τ' ἄμεινον·</l>
+        <l n="53">μὴ ἀγαθῷ περ ἐόντι νεμεσσηθῶμεν οἱ καὶ ἡμεῖς·</l>
+        <l n="54">κωφὴν γὰρ δὴ γαῖαν ἀεικίζει μενεαίνων·</l>
       </div>
     </body>
   </text>

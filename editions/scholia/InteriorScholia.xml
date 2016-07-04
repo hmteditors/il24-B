@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei-scholia.css"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
@@ -11,7 +11,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <title>Venetus A Interior Scholia</title>
-                <author>YOUR NAME HERE</author>
+                <author>Zachary David Sowerby</author>
+                <author>Bart Bijvoets</author>
             </titleStmt>
             <publicationStmt>
                 <p>Unpublished</p>
@@ -25,15 +26,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <group n="24">
             <text n="msAint">
                 <body>
-                    <div n="1" type="scholion">
+                    <div n="B1" type="scholion">
                         <div type="lemma">
                             <p/>
                         </div>
                         <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:24.??</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:24.33</p>
                         </div>
                         <div type="comment">
-                            <p></p>
+                            <p><choice><abbr>γρ</abbr><expan>γράφεται</expan></choice> <q>οὐ νύ ποθ' ὕμιν·</q></p>
+                        </div>
+                    </div>
+                    <div n="B2" type="scholion">
+                        <div type="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:24.54</p>
+                        </div>
+                        <div type="comment">
+                            <p><choice><abbr>οτ</abbr><expan>ὅτι</expan></choice> <choice><abbr>αντ</abbr><expan>ἀντὶ</expan></choice> θυμου μενος ⁑</p>
                         </div>
                     </div>
                 </body>
